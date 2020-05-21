@@ -1,0 +1,9 @@
+FROM python
+RUN mkdir work ./work/shared ./work/destination
+WORKDIR ./work
+COPY requirements.txt shellB.sh pydec.py  ./ 
+RUN apt-get update
+RUN apt-get -y  install python3-pip inotify-tools
+RUN pip install -r requirements.txt
+CMD ["bash","shellB.sh","&"]
+

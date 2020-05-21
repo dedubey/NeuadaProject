@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  container_a:
+   build: ./container_a
+   volumes:
+    - ./source:/work/source
+    - ./shared:/work/shared
+ 
+  container_b:
+   build: ./container_b
+   volumes:
+    - ./destination:/work/destination
+    - ./shared:/work/shared
+
