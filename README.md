@@ -1,4 +1,4 @@
-# NeuadaProject
+# NeuedaProject
 Task Details and Requirements
 
 # The Project contains the following folders and files:
