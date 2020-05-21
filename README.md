@@ -32,19 +32,19 @@ To run the project on a machine , docker and docker-compose should be installed 
 
 # docker-compose up 
 
-## NOTE: All the files and folders names and relative location shouldn’t be changed.  To run the project , navigate to the ubuntu folder given and run docker-compose up. 
+# NOTE: All the files and folders names and relative location shouldn’t be changed.  To run the project , navigate to the ubuntu folder given and run docker-compose up. 
 The rest of the files were used for testing and they are not required in the project. 
 
 
 
 
+# Folder Shared Structure 
+ The source folder is mounted on container A.
 
-# The source folder is mounted on container A.
-
-# The destination folder is mounted to Container B. 
+ The destination folder is mounted to Container B. 
 
  The shared folder is mounted to both the Containers. Consider shared folder as a network shared drive which is accessible from both the Containers. 
 
-Flow chart can be seen in files. 
+# Flow chart can be seen in the repo. 
 
  
