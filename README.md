@@ -1,5 +1,6 @@
 # NeuedaProject
-Task Details and Requirements
+Task:
+Write a python script, which will convert json files to xml files, encrypt and transfer it in a remote location.
 
 # The Project contains the following folders and files:
 1.	container_a
